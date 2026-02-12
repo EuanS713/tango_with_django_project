@@ -37,7 +37,7 @@
           {% for page in pages %}
             <li>
                 <!-- The following line is changed to add an HTML hyperlink -->
-                <a href="/rango/page/{{ page.slug }}/">{{ page.title }}</a>
+                <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
           {% endfor %}
         </ul>
